@@ -87,16 +87,16 @@ body{
     -webkit-mask-image: linear-gradient(
     to right, 
     transparent 0%,    
-    black 10%,         
-    black 90%,
+    black 5%,         
+    black 95%,
     transparent 100%
   );
   
   mask-image: linear-gradient(
     to right, 
     transparent 0%, 
-    black 10%, 
-    black 90%, 
+    black 5%, 
+    black 95%, 
     transparent 100%
   );
     overflow-x: auto;
@@ -153,6 +153,7 @@ input[type="radio"]:checked + label {
     font-weight: 500;
     font-family: 'TT Lakes-Bold';
     line-height: 24px;
+    margin-right: 16px;
     width: 246px;
     height: 40px;
     cursor: pointer;
