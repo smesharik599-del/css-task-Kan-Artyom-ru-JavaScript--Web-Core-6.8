@@ -210,7 +210,7 @@ input[type="radio"]:checked + label {
     background-color: #FFFFFF;}
 
 .scroll::-webkit-scrollbar {
-  display: none;
+    display: none;
 }
 
 .text-block__first-text{
