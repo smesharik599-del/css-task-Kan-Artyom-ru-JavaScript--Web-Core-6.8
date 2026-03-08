@@ -19,6 +19,9 @@
   font-style: normal;
 }
 
+a{
+    text-decoration: none;
+}
 
 *{
     margin: 0;
@@ -258,6 +261,16 @@ input[type="radio"]:checked + label {
 .text-block__next{
     display: flex;
     margin-top: 16px;
+    font-family: 'TT Lakes-Medium';
+    font-weight: 500;
+    font-size: 16px;
+    box-sizing: border-box;
+    border-color: #F8F8F8;
+    color: #1B1C21;
+}
+
+.text-block__next-text{
+    color:#1B1C21;
     font-family: 'TT Lakes-Medium';
     font-weight: 500;
     font-size: 16px;
